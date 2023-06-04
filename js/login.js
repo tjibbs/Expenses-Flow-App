@@ -44,7 +44,7 @@ $("#submit").click(function(){
       pwd:pwd
     },function(data,status){
           if(data=="Successful"){
-            window.location.assign("home.php");
+            window.location.assign("home.py");
           }else{
             $('#msg').html(data);
             $("#loaded").html("Login");
