@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Expenses Claim Form</title>
+    <link rel="stylesheet" type="text/css" href="..//static/expenses_claim_form.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Expenses Claim Form</h1>
+        <form>
+            <label for="staff-id">Staff ID:</label>
+            <input type="text" id="staff-id" name="staff-id" placeholder="Enter Your Staff ID" required>
+
+            <label for="department">Department:</label>
+            <input type="text" id="department" name="department" placeholder="Enter your Department" required>
+
+            <label for="amount-requested">Amount Requested:</label>
+            <input type="number" id="amount-requested" name="amount-requested" placeholder="Enter Amount Requested" required>
+
+            <label for="details">Details of Expenses:</label>
+            <textarea id="details" name="details" rows="4" placeholder="Enter Details of Expenses" required></textarea>
+
+            <label for="receipt">Upload Receipt:</label>
+            <input type="file" id="receipt" name="receipt" accept="image/*" required>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
